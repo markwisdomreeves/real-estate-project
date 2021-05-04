@@ -1,36 +1,27 @@
-# MERN Stack - Ecommerce
-> Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
+## Real Estate Housing Project
 
-## Demo: https://devat-ecommerce.herokuapp.com/
+#### This is a Full Stack Real Estate website that deals in buying, Leasing, Renting and selling of Houses, Lands and Appartments in Europe and other places around the world.
 
-## Author: Dev AT
-## Youtube tutorials: https://youtu.be/AjItjNc0bHA
+#### PLEASE CLICK THIS LINK TO VIEW THE LIVE PROJECT: https://real-estate-h.herokuapp.com/
 
-## Install dependencies for server 
-### `npm install`
+### Frontend Technologies used in this project are:
 
-## Install dependencies for client
-### cd client ---> `npm install`
+#### React.JS
+#### React-bootstrap 
+#### Bootstrap 
+#### Flexbox
+#### CSS3
 
-## Connect to your mongodb and add info in .env
+### Backend Technologies used in this project are:
+#### Node.JS 
+#### Express.JS
+#### Mongodb
+#### Json Web Token (JWT)
 
-## Add your paypal client id in client/src/components/mainpages/cart/PaypalButton.js
+### How to run this project?
+#### 1. Enter the parent folder of the project and run npm install to install all the dependencies
+#### 2. Also enter the client folder and do the seen (npm install)
+#### 3. create an .env file and add your mongodb connection string along with an ACCESS_TOKEN_SECRET and REFRESH_TOKEN_SECRET(for testing propose, used any simple text that is joined together like this: thisismyaccesstokensecret)
+#### 4. Add the cloudinary API upload credentials because I used the cloudinary image upload API to host all of my images - https://cloudinary.com/
+#### 5. Lastly, enter the parent folder of the project and use the npm run dev command to start both the frontend and backend of the project concurrently (at once) OR separately run npm start to run the project (npm start in the parent folder and npm start in the client folder) and enter http://localhost:3000 in the browser to view the project.
 
-## Run the client & server with concurrently
-### `npm run dev`
-
-## Run the Express server only
-### `npm run server`
-
-## Run the React client only
-### `npm run client`
-
-### Server runs on http://localhost:5000 and client on http://localhost:3000
-
-### User interface 
-
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568147/test/1_pe9ism.png)
-
-### Admin interface 
-
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568148/test/2_obw2r7.png)
