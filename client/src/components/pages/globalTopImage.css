@@ -1,0 +1,48 @@
+#global-top-image-container {
+  width: 100%;
+  height: 20vh;
+  background-image: url("https://res.cloudinary.com/dpnevg5nt/image/upload/v1618160232/realEstateImages/SubHeroBg_y3imsr.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  padding: 30px;
+}
+.global-top-section-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.global-top-text-container {
+  text-align: center;
+  color: #f1f1f1;
+}
+.global-h1-text {
+  text-align: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .global-h1-text {
+    font-size: 1.1rem;
+  }
+  .global-blog-title {
+    text-align: center;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    color: #f1f1f1;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .global-blog-title {
+    text-align: center;
+    font-size: 8px !important;
+    text-transform: uppercase;
+    color: #f1f1f1;
+  }
+
+}
+
+

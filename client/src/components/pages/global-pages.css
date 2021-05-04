@@ -1,0 +1,180 @@
+
+
+@import url("./globalTopImage.css");
+
+#home-container {
+  width: 100%;
+}
+.site-breadcrumb {
+  margin-bottom: 40px;
+}
+.inner-breadcrumb-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  padding: 10px;
+}
+.inner-breadcrumb-box a {
+  font-size: 1.1rem;
+  padding-right: 5px;
+  text-decoration: none;
+  list-style: none !important;
+  color: black;
+  font-weight: 500;
+}
+.inner-breadcrumb-box a i {
+  margin-right: 5px;
+  color: black;
+}
+.inner-breadcrumb-box span {
+ font-size: 1rem;
+ margin: 3px;
+ font-weight: 500;
+ color: gray;
+}
+.inner-breadcrumb-box i {
+  margin-left: 5px;
+  margin-right: 8px;
+}
+
+/* about us page section */
+/* Sub Hero Section */
+.about-us-main-container {
+  margin-bottom: 5px;
+}
+#image-box {
+  width: 100%;
+}
+#image-box img {
+  width: 100%;
+  height: 45vh;
+}
+#about-text-box {
+  padding: 15px;
+}
+#about-text-box h2 {
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+#about-text-box p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#font-icon-box i {
+  padding-right: 5px;
+  color: #30caa0;
+}
+#about-image-container {
+  width: 100%;
+  height: 30vh;
+  background-image: url("https://res.cloudinary.com/dpnevg5nt/image/upload/v1618160232/realEstateImages/SubHeroBg_y3imsr.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  padding: 30px;
+}
+.about-section-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.about-text-container {
+  text-align: center;
+  color: #f1f1f1;
+  margin-top: 2rem;
+}
+.about-h1-text {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+
+/* contact page section */
+.form-input-box h3 {
+  margin-top: 10px;
+}
+.contact-bg-img {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.contact-bg-img img {
+  width: 100%;
+  height: 400px;
+}
+#contact-container {
+  margin-top: 20px;
+}
+.contact-image-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 0;
+  background-color: #30caa0;
+}
+.contact-image-text-box span {
+  padding: 5px;
+}
+.contact-image-text-box i {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: #f1f1f1;
+}
+#contact-us-section {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.form-img-box {
+  padding: 20px;
+}
+.form-img-box img {
+  width: 100%;
+  height: 300px;
+  margin-top: 2rem;
+}
+.form-input-box {
+  margin-top: 1.5rem;
+}
+#contact-us-section .form-input-box h3 {
+  font-size: 1.4rem;
+}
+#contact-us-section .form-input-box p {
+  font-size: 1rem;
+}
+.form-input-field {
+  width: 100%;
+}
+.textarea-input-field {
+  width: 100%;
+  resize: none;
+}
+.submit-btn {
+  width: 100%;
+}
+.submit-btn button {
+  width: 100%;
+  padding: 4px;
+  border: none;
+  font-size: 1rem;
+  background-color: #30caa0;
+}
+.submit-btn button:hover {
+  background-color: black;
+  color: #f1f1f1;
+}
+
+/* Media queries section */
+@media screen and (max-width: 600px) {
+  .contact-h1-text {
+    font-size: 1.3rem;
+  }
+}
+

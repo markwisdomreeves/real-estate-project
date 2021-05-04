@@ -1,0 +1,140 @@
+
+  /* Cart item icons styles */
+  .top-info-one {
+    position: relative;
+  }
+  .top-info-one span {
+    position: absolute;
+    top: 1;
+    right: 8px;
+    color: white;
+    background-color: brown;
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 10px;
+  }
+
+  #logout-link {
+    color: red;
+  }
+  #admin-link {
+    color: #f1f1f1;
+    font-size: 1rem;
+  }
+
+
+  /* Top Header navbar section */
+  #social-media-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black !important;
+  }
+  #social-media-container .contact-details i {
+    color: #f1f1f1;
+  }
+  .contact-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+    color: #f1f1f1;
+    border-bottom: 1px solid gray;
+  }
+
+  #Page-Logo {
+    font-size: 2rem;
+    color: #30caa0;
+  }
+  #Page-Logo:hover {
+    color: lightgray;
+  }
+
+  #addToCart_start {
+    font-size: 2rem;
+    color: #f1f1f1;
+  }
+
+  /* contact number sections */
+  .top-info-one {
+    color: #f1f1f1;
+    padding: 5px;
+  }
+  .top-info-one i {
+    color: #f1f1f1;
+  }
+  .top-info-one a {
+    color: #f1f1f1;
+  }
+  #real-estate-text {
+    color: #30caa0;
+    font-size: 1rem;
+  }
+
+  /* Social media sections */
+  .top-info-three {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .top-info-three .social-icons {
+    padding: 3px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    color: #f1f1f1;
+  }
+  .top-info-three i {
+    padding: 5px;
+    justify-content: space-between;
+    color: #f1f1f1;
+  }
+
+  /* Header styles sections */
+  .max-navbar-width {
+    max-width: 100%;
+  }
+  .navbar-dark {
+    background-color: black !important;
+  }
+  #brand-logo {
+    text-transform: uppercase !important;
+  }
+  .my-custom-links {
+    text-transform: uppercase !important;
+  }
+  #login-style {
+    color: #30caa0;
+  }
+  #logout-style {
+    color: brown;
+  }
+  #profile-style {
+    color: #30caa0;
+  }
+
+  /* Media queries section */
+  @media screen and (max-width: 1024px) {
+    .my-custom-links {
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .my-custom-links {
+      font-size: 1rem;
+    }
+    #admin-link {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .contact-details {
+      border-bottom: none;
+    }
+    .my-custom-links {
+      font-size: 1rem;
+    }
+  }
+

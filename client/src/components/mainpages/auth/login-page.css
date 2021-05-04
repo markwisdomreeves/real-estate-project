@@ -1,0 +1,139 @@
+#login-form-container {
+    min-width: 80vw;
+    min-height: 80vh;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .custom-password-wrapper {
+    position: relative;
+    display: flex;
+    margin-bottom: 14px;
+  }
+  .custom-password-wrapper i {
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    cursor: pointer;
+  }
+  .main-demo-account-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-demo-account-box span {
+    font-size: 14px;
+  }
+  .main-demo-account-box .admin {
+    color: #30caa0;
+  }
+  .main-demo-account-box .user {
+    color: brown;
+  }
+  .inner-login-form-box {
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 1px 2px 5px 5px #f1f1f1;
+  }
+  .inner-login-form-box h3 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #30caa0;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #30caa0;
+  }
+  .login-input-field {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .login-submit-btn-container button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: #30caa0;
+    font-size: 1.2rem;
+    color: #f1f1f1;
+  }
+  .login-submit-btn-container {
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .register-options-link {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .register-options-link a {
+    color: #30caa0;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .register-options-link a:hover {
+    color: #30caa0 !important;
+  }
+
+  .example-account h3 {
+    font-size: 1.8rem;
+    color: #30caa0;
+    text-transform: uppercase;
+  }
+  .example-account .account {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .example-account .account p {
+    margin: 4px;
+    font-size: 19px;
+  }
+  .example-account .account p span {
+    color: white;
+    font-size: 17px;
+    color: #30caa0;
+  }
+  .example-account .admin-account p span {
+    color: brown;
+  }
+  @media screen and (max-width: 500px) {
+    #login-form-container {
+      max-width: 100vw;
+      min-height: 80vh;
+      margin: 0 auto;
+    }
+    .example-account h3 {
+      font-size: 1rem;
+      color: #30caa0;
+      text-transform: uppercase;
+    }
+    .example-account .account p {
+      font-size: 12px;
+    }
+    .example-account .account p span {
+      font-size: 14px;
+      color: #30caa0;
+    }
+    .example-account .admin-account p span {
+      color: brown;
+    }
+    .register-options-link {
+      font-size: 10px;
+    }
+    .register-options-link a {
+      font-size: 10px;
+    }
+    #login-form-container ::placeholder {
+      font-size: 10px;
+    }
+    #login-form-container input::placeholder {
+      font-size: 10px;
+    }
+  }
+
+
+
+
+
+
